@@ -1,0 +1,142 @@
+[buildPlans.runeweaver]
+family = "Runeweaver"
+spacing = "term"
+serifs = "sans"
+no-cv-ss = false
+export-glyph-names = true
+
+  [buildPlans.runeweaver.variants]
+  inherits = "ss18"
+
+    [buildPlans.runeweaver.variants.design]
+    capital-a = "curly-serifless"
+    capital-b = "standard-interrupted-serifless"
+    # capital-c = "unilateral-inward-serifed"
+    capital-c = "serifless"
+    capital-d = "standard-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+    capital-g = "toothless-corner-serifless-capped"
+    capital-h = "serifless"
+    capital-i = "short-serifed"
+    capital-j = "serifed"
+    capital-k = "curly-serifless"
+    capital-l = "motion-serifed"
+    capital-m = "hanging"
+    capital-n = "asymmetric"
+    capital-p = "open"
+    capital-q = "open-swash"
+    capital-r = "standing-open"
+    # capital-s = "bilateral-inward-serifed"
+    capital-s = "serifless"
+    capital-t = "serifless"
+    capital-u = "toothless-rounded"
+    capital-v = "curly"
+    capital-w = "straight-vertical-sides"
+    capital-x = "straight-serifless"
+    capital-y = "curly-serifless"
+    capital-z = "straight-serifless"
+    # a = "single-storey-serifed"
+    a = "single-storey-serifless"
+    b = "toothless-corner"
+    c = "unilateral-inward-serifed"
+    d = "toothless-corner-serifless"
+    # f = "flat-hook-tailed"
+    f = "flat-hook-extended"
+    h = "straight"
+    j = "flat-hook-serifed"
+    k = "curly-serifless"
+    # m = "top-left-serifed"
+    m = "normal"
+    # n = "straight-top-left-serifed"
+    n = "straight"
+    p = "earless-corner"
+    q = "earless-corner"
+    # r = "corner-hooked-serifed"
+    r = "corner-hooked"
+    s = "serifless"
+    t = "flat-hook"
+    # u = "bottom-right-serifed"
+    u = "toothed"
+    # v = "cursive"
+    v = "curly"
+    w = "straight-vertical-sides"
+    x = "straight-serifless"
+    # y = "cursive-flat-hook"
+    y = "curly"
+    z = "straight-serifless"
+    eszet = "sulzbacher"
+    turn-v = "curly"
+    lower-alpha = "crossing"
+    lower-lambda = "straight-turn"
+    lower-mu = "tailed"
+    cyrl-capital-ka = "curly-serifless"
+    cyrl-ka = "curly-serifless"
+    cyrl-el = "straight"
+    cyrl-en = "serifless"
+    cyrl-ef = "serifless"
+    cyrl-che = "standard"
+    # cyrl-capital-u = "curly-turn"
+    cyrl-capital-u = "curly"
+    cyrl-capital-ya = "standing-open"
+    cyrl-ya = "standing-open"
+    cyrl-yeri = "corner"
+    two = "curly-neck"
+    seven = "curly-serifed"
+    asterisk = "hex-high"
+    underscore = "above-baseline"
+    paren = "large-contour"
+    brace = "straight"
+    number-sign = "upright"
+    ampersand = "et-toothless-corner"
+    at = "fourfold"
+    dollar = "interrupted"
+    cent = "through"
+    percent = "rings-segmented-slash"
+
+    [buildPlans.runeweaver.ligations]
+    disables = []
+    enables  = ["center-ops",
+                "arrow",
+                # "arrow2",
+                "trig",
+                "eqeqeq",
+                "eqeq",
+                "ineq",
+                "exeqeq",
+                "exeqeq-dotted",
+                "eqexeq",
+                "eqexeq-dotted",
+                "eqexeq-dl",
+                "eqexeq-dl-dotted",
+                "exeq",
+                "exeq-dotted",
+                "tildeeq",
+                "eqslasheq",
+                "slasheq",
+                "ltgt-ne",
+                "ltgt-diamond",
+                "brst",
+                "kern-dotty",
+                "kern-bars",
+                "logic",
+                "llgg",
+                "llggeq",
+                # "dot-as-operator",
+                "bar-triggers-op-centering",
+                "html-comment",
+                "brace-bar",
+                "brack-bar",
+                "connected-underscore",
+                "connected-tilde-as-wave",
+                "connected-hyphen-as-semi-dashed-line"]
+
+    [buildPlans.runeweaver.metric-override]
+    dotSize = 'blend(weight, [100, 75], [200, 85], [300, 95], [400, 105], [500, 115], [600, 125], [700, 135], [800, 145], [900, 150])'
+    periodSize = 'blend(weight, [100, 90], [200, 100], [300, 110], [400, 120], [500, 130], [600, 140], [700, 150], [800, 160], [900, 170])'
+
+[buildPlans.runeweaver.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
