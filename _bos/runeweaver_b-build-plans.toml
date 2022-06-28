@@ -1,0 +1,176 @@
+[buildPlans.runeweaver_b]
+family = "Runeweaver_B"
+spacing = "term"
+serifs = "sans"
+no-cv-ss = false
+export-glyph-names = true
+
+[buildPlans.runeweaver_b.variants.design]
+capital-a = "curly-serifless"
+    capital-b = "standard-serifless"
+    capital-c = "serifless"
+capital-d = "standard-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+capital-g = "toothless-corner-serifless-hooked"
+    capital-h = "serifless"
+capital-i = "short-serifed"
+    capital-j = "serifed"
+capital-k = "curly-serifless"
+    capital-l = "serifless"
+    capital-m = "hanging"
+    capital-n = "standard"
+    capital-p = "closed"
+capital-q = "detached-bend-tailed"
+capital-r = "curly"
+    capital-s = "serifless"
+    capital-t = "serifless"
+    capital-u = "toothless-rounded"
+capital-v = "curly"
+capital-w = "curly"
+    capital-x = "straight-serifless"
+    capital-y = "straight-serifless"
+capital-z = "straight-serifed"
+a = "single-storey-serifless"
+    b = "toothed"
+    c = "serifless"
+    d = "toothed-serifless"
+    e = "flat-crossbar"
+    f = "flat-hook"
+    g = "single-storey-flat-hook-serifless"
+    h = "straight"
+i = "serifed-asymmetric"
+j = "serifed"
+k = "curly-serifless"
+l = "serifed-asymmetric"
+    m = "normal"
+    n = "straight"
+    p = "eared"
+    q = "straight"
+r = "serifless"
+    s = "serifless"
+t = "standard"
+u = "toothed"
+v = "curly"
+w = "curly"
+    x = "straight-serifless"
+y = "curly"
+    z = "straight-serifless"
+long-s = "bent-hook"
+eszet = "sulzbacher"
+turn-v = "curly"
+lower-alpha = "crossing"
+lower-delta = "rounded"
+capital-gamma = "serifless"
+lower-iota = "flat-tailed"
+lower-lambda = "curly"
+lower-mu = "tailless"
+lower-xi = "flat-top"
+cyrl-capital-ze = "serifless"
+cyrl-ze = "serifless"
+cyrl-capital-ka = "curly-serifless"
+cyrl-ka = "curly-serifless"
+cyrl-el = "straight"
+cyrl-en = "serifless"
+cyrl-ef = "serifless"
+cyrl-che = "standard"
+cyrl-capital-u = "straight"
+cyrl-capital-ya = "standing-open"
+cyrl-ya = "standing-open"
+cyrl-yeri = "corner"
+cyrl-yery = "corner"
+zero = "slashed-oval"
+one = "base-flat-top-serif"
+two = "straight-neck"
+three = "two-arcs"
+four = "closed"
+five = "oblique-upper-left-bar"
+six = "closed-contour"
+seven = "curly-serifed"
+eight = "two-circles"
+nine = "closed-contour"
+tilde = "low"
+asterisk = "penta-low"
+underscore = "high"
+pilcrow = "high"
+caret = "medium"
+paren = "large-contour"
+brace = "curly"
+number-sign = "slanted"
+ampersand = "lower-open"
+at = "fourfold"
+dollar = "interrupted"
+cent = "open"
+percent = "dots"
+bar = "force-upright"
+lig-ltgteq = "slanted"
+ascii-single-quote = "straight"
+ascii-grave = "straight"
+question = "corner"
+punctuation-dot = "round"
+diacritic-dot = "round"
+
+    [buildPlans.runeweaver_b.ligations]
+    inherits = "haskell"
+    disables = ["plusplus"]
+    enables = ["exeq-dotted",
+               "tildeeq",
+               "exeqeq",
+               "exeqeq-dotted",
+               "eqeqeq",
+               "eqslasheq",
+               "brst",
+               "html-comment"
+              ]
+
+    [buildPlans.runeweaver_b.metric-override]
+    sb = 75 # (Original Value ~> 60) Decreasing this value makes curves more circular.
+
+[buildPlans.runeweaver_b.weights.light]
+shape = 425
+menu = 425
+css = 425
+
+[buildPlans.runeweaver_b.weights.regular]
+shape = 550
+menu = 550
+css = 550
+
+[buildPlans.runeweaver_b.weights.medium]
+shape = 575
+menu = 575
+css = 575
+
+[buildPlans.runeweaver_b.weights.pronounced]
+shape = 625
+menu = 625
+css = 625
+
+[buildPlans.runeweaver_b.weights.bold]
+shape = 775
+menu = 775
+css = 775
+
+[buildPlans.runeweaver_b.weights.bolder]
+shape = 825
+menu = 825
+css = 825
+
+[buildPlans.runeweaver_b.weights.heavy]
+shape = 875
+menu = 875
+css = 875
+# shape = 950
+# menu = 950
+# css = 950
+
+[buildPlans.runeweaver_b.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.runeweaver_b.widths.normal]
+shape = 520
+menu = 5
+css = "normal"
