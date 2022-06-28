@@ -1,0 +1,165 @@
+[buildPlans.runeweaver_w]
+family = "Runeweaver W"
+spacing = "term"
+serifs = "sans"
+no-cv-ss = false
+export-glyph-names = true
+
+[buildPlans.runeweaver_w.variants]
+inherits = "ss14"
+
+[buildPlans.runeweaver_w.variants.design]
+capital-a = "curly-serifless"
+capital-d = "standard-serifless"
+capital-g = "toothless-corner-serifless-capped"
+capital-i = "short-serifed"
+capital-k = "curly-serifless"
+capital-q = "detached-bend-tailed"
+capital-r = "curly"
+capital-v = "curly"
+capital-w = "curly"
+a = "single-storey-serifless"
+# f = "serifless" # Extra
+g = "double-storey-open"
+i = "serifed-asymmetric"
+# i = "zshaped" # Extra
+# j = "serifed" # Extra
+k = "curly-serifless"
+l = "serifed-asymmetric"
+# l = "zshaped" # Extra
+# p = "earless-corner" # Extra
+# q = "earless-corner" # Extra
+r = "serifless"
+t = "standard" # Extra
+u = "toothed"
+v = "curly"
+# w = "straight-vertical-sides" # Extra
+w = "curly"
+# y = "curly" # Extra
+long-s = "bent-hook"
+eszet = "sulzbacher"
+turn-v = "curly"
+lower-alpha = "crossing"
+lower-delta = "rounded"
+capital-gamma = "serifless"
+lower-iota = "flat-tailed"
+lower-lambda = "curly"
+lower-mu = "tailless"
+lower-xi = "flat-top"
+cyrl-capital-ze = "serifless"
+cyrl-ze = "serifless"
+cyrl-capital-ka = "curly-serifless"
+cyrl-ka = "curly-serifless"
+cyrl-el = "straight"
+cyrl-en = "serifless"
+cyrl-ef = "serifless"
+cyrl-che = "standard"
+cyrl-capital-u = "straight"
+cyrl-capital-ya = "standing-open"
+cyrl-ya = "standing-open"
+cyrl-yeri = "corner"
+cyrl-yery = "corner"
+zero = "dotted-oval"
+one = "no-base-flat-top-serif"
+two = "straight-neck"
+three = "two-arcs"
+four = "closed"
+five = "oblique-upper-left-bar"
+six = "straight-bar"
+seven = "curly-serifed"
+eight = "two-circles"
+nine = "straight-bar"
+tilde = "low"
+# asterisk = "turn-hex-low"
+asterisk = "penta-low" # Extra
+underscore = "high"
+pilcrow = "high"
+caret = "medium"
+paren = "large-contour"
+brace = "curly"
+# number-sign = "slanted"
+number-sign = "slanted-tall"
+ampersand = "upper-open"
+at = "fourfold-solid-inner"
+dollar = "interrupted"
+cent = "open"
+percent = "dots"
+bar = "force-upright"
+lig-ltgteq = "slanted"
+ascii-single-quote = "straight"
+ascii-grave = "straight"
+question = "corner"
+# punctuation-dot = "round"
+punctuation-dot = "square" # Extra
+# diacritic-dot = "round"
+diacritic-dot = "round" # Extra
+
+    [buildPlans.runeweaver_w.ligations]
+    inherits = "haskell"
+    disables = ["plusplus"]
+    enables = ["exeq-dotted",
+               "tildeeq",
+               "exeqeq",
+               "exeqeq-dotted",
+               "eqeqeq",
+               "eqslasheq",
+               "brst",
+               "html-comment"
+              ]
+
+    [buildPlans.runeweaver_w.metric-override]
+    # dotSize = 'blend(weight, [100, 75], [200, 85], [300, 95], [400, 105], [500, 115], [600, 125], [700, 135], [800, 145], [900, 150])'
+    dotSize = 'blend(weight, [100, 50], [200, 60], [300, 70], [400, 80], [500, 90], [600, 100], [700, 110], [800, 120], [900, 130])'
+    periodSize = 'blend(weight, [100, 90], [200, 100], [300, 110], [400, 120], [500, 130], [600, 140], [700, 150], [800, 160], [900, 170])'
+    sb = 75 # (Original Value ~> 60) Decreasing this value makes curves more circular.
+
+[buildPlans.runeweaver_w.weights.light]
+shape = 475
+menu = 475
+css = 475
+
+[buildPlans.runeweaver_w.weights.regular]
+shape = 550
+menu = 550
+css = 550
+
+[buildPlans.runeweaver_w.weights.medium]
+shape = 575
+menu = 575
+css = 575
+
+[buildPlans.runeweaver_w.weights.pronounced]
+shape = 625
+menu = 625
+css = 625
+
+[buildPlans.runeweaver_w.weights.bold]
+shape = 775
+menu = 775
+css = 775
+
+[buildPlans.runeweaver_w.weights.bolder]
+shape = 825
+menu = 825
+css = 825
+
+[buildPlans.runeweaver_w.weights.heavy]
+shape = 875
+menu = 875
+css = 875
+# shape = 950
+# menu = 950
+# css = 950
+
+[buildPlans.runeweaver_w.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.runeweaver_w.widths.normal]
+# shape = 500 # Default
+shape = 535 # W
+# shape = 520 # C
+menu = 5
+css = "normal"
